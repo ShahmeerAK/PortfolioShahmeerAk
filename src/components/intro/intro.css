@@ -57,9 +57,7 @@ body {
         transform: translateY(-100px);
     }
 
-    75% {
-        transform: translateY(-150px);
-    }
+    
 }
 
 .i-title-item {

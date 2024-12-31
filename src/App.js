@@ -6,6 +6,7 @@ import Contact from './components/contact/Contact';
 import Toggle from './components/toggle/Toggle';
 import { useContext } from 'react';
 import { ThemeContext } from './context';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {

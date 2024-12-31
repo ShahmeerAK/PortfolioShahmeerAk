@@ -18,14 +18,36 @@ body {
     font-weight: 600;
 }
 .p1-desc{
-    margin: 20px 0;
+    margin: 40px 0 20px 20px;
     font-size: 1.4em;
+}
+.carousel-container {
+    display: flex;
+}
+
+.carousel-section {
+    width: 400px;
+    /* Set the desired width for each carousel */
+    margin-right: 20px;
+    /* Adjust margin as needed for spacing between carousels */
+}
+
+.fixed-image {
+    height: 300px;
+    
+    /* Set the desired height for the images */
+    object-fit:contain;
+    /* Maintain aspect ratio and cover the entire container */
+    pointer-events: none;
+    /* This will prevent right-click */
+        
 }
 .p1-list{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 @media screen and (max-width: 480px) {
     .p1 {
@@ -35,7 +57,10 @@ body {
     .p1-texts{
         width: 100%;
     }
-    .p1-desc{
-        display: none;
-    }
+}
+
+@media screen and (max-width: 768px) {
+.carousel-container {
+    flex-direction: column;
+}
 }

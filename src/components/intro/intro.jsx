@@ -11,16 +11,12 @@ const Intro = () => {
             <h1 className="i-name">Shahmeer Khan</h1>
             <div className="i-title">
               <div className="i-title-wrapper">
-                <div className="i-title-item">Software Engineer</div>
-                <div className="i-title-item">Web Developer</div>
-                <div className="i-title-item">MERN Developer</div>
+                <div className="i-title-item">Photographer</div>
                 <div className="i-title-item">Graphic Designer</div>
+                <div className="i-title-item">Web Developer</div>
               </div>
             </div>
-            <p className="i-desc">
-              I have done BS-Software Engineering from PUCIT.Basically, I can
-              use any JavaScript library or its framework (like React.js and
-              Node.js) at its best. And in the mean time, I do graphic designing as Well.</p>
+            <p className="i-desc">  </p>
           </div>
         </div>
         <div className="i-right">
